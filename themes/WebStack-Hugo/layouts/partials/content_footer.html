@@ -8,7 +8,7 @@
                     rel="search" one-link-mark="yes">
                     <i class="iconfont icon-search"></i>
                 </a>
-                <a href="https://www.yuque.com/shenweiyan" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
+                <a href="https://blog.xseven.top" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
                     <i class="mode-ico iconfont icon-qq"></i>
                 </a>
                 <!-- 右下角搜索 end -->
@@ -18,9 +18,15 @@
                     <i class="mode-ico iconfont icon-light"></i>
                 </a>
             </div>
+
             <div class="footer-inner">
                 <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
+                {{ if $.Site.Params.footer.busuanzi }}
+                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                <center><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
+                {{ end }}
             </div>
+
         </footer>
     </div><!-- main-content end -->
 </div><!-- page-container end -->
