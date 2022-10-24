@@ -10,6 +10,7 @@ publishDir = "docs"
 
 [params]
     author        = "realxx7"
+    keywords      = "导航,开发,设计,编程,网站,java,android,git,github"
     description   = "开发与设计 网址导航 | BY IT&ART 爱好者X7"
     siteurl       = "./"
     about         = "./about"   # 左侧导航栏的"关于导航"页面(./about)
