@@ -9,3 +9,8 @@
 
 ## 修改第二次
 - 修改keywords及description引入，优化seo
+
+## 修改第三次
+- 修改非主页面标题为“网页标题|网站标题”
+- 修改非主页面author，和footer添加使用者（添加：Site Build By author）
+- 调整waline引入方式，避免移动端waline客户端太小

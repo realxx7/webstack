@@ -45,3 +45,8 @@ publishDir = "docs"
 [params.footer]
     copyright = '本站为个人网址收藏汇总，内容源自互联网，如有内容侵犯了你的权益，可联系删除相关内容<br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
     busuanzi  = true
+
+
+[params.waline]
+    comment   = false
+    serverURL = 'https://your-domain.vercel.app'
